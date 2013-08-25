@@ -13,7 +13,7 @@ Elon proposed two possible designs for the Hyperloop:
 
 In my analysis, I think it's only worthwhile to pursue option number 2 since it will create a far more versatile Hyperloop system, for only slightly more than the Passenger-only version.
 
-The repository just be a place for data files, CAD files, sketches, images, etc associated with this project and distilled thoughts/discussions are on the [wiki](wiki/Home).
+The repository just be a place for data files, CAD files, sketches, images, etc associated with this project and distilled thoughts/discussions are on the [wiki](https://github.com/OpenHyperloop/OpenHyperloop/wiki).
 
 # Request for Data
 
@@ -25,4 +25,4 @@ If you are an engineer (CFD, Structural, Industrial, etc), architect, graphic de
 
 # Usage of the repository/wiki
 
-As stated above, if you have a thought on the designs, it goes in the [wiki](wiki/Home) for this project.  If you have a CAD file, image, mockup, video, etc, then it goes into the repository.
+As stated above, if you have a thought on the designs, it goes in the [wiki](https://github.com/OpenHyperloop/OpenHyperloop/wiki) for this project.  If you have a CAD file, image, mockup, video, etc, then it goes into the repository.
