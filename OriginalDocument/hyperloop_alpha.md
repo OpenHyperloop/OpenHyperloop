@@ -226,7 +226,7 @@ by LightSail.
 
 ****
 
-[abstract]**1. Abstract**
+[abstract] **1. Abstract**
 
 Existing conventional modes of transportation of people consists of four unique
 types:  rail,  road,  water,  and  air.  These  modes  of  transport  tend  to  be  either
@@ -260,93 +260,51 @@ one-way ticket on the passenger Hyperloop.
 Useful  feedback  is  welcomed  on  aspects  of  the  Hyperloop  design.  E-mail
 feedback to[ hyperloop@spacex.com ](mailto:hyperloop@spacex.com)o[r hyperloop@teslamotors.com.](mailto:hyperloop@teslamotors.com)
 
-[toc]**2. Table of Contents**
+[toc] **2. Table of Contents**
 
-    1. [Abstract][abstract]
-
-    2. [Table of Contents][toc]
-
-    3. [Background][background]
-
-    4. [Hyperloop Transportation System][transport]
-
-    4.1. [Capsule][capsule]
-
-    4.1.1. [Geometry][capsule_geom]
-
-    4.1.2. [Interior][capsule_interior]
-
-    4.1.3. [Compressor][capsule_compressor]
-
-    4.1.4. [Suspension][capsule_suspension]
-
-    4.1.5. [Onboard Power][capsule_power]
-
-    4.1.6. [Propulsion][capsule_propulsion]
-
-    4.1.7. [Cost][capsule_cost]
-
-    4.2. [Tube][tube] 
-
-    4.2.1. [Geometry][tube_geom]
-
-    4.2.2. [Tube Construction][tube_construction]
-
-    4.2.3. [Pylons and Tunnels][tube_pylons]
-
-    4.2.4. [Station Construction][tube_station]
-
-    4.2.5. [Cost][tube_cost]
-
-    4.3. [Propulsion][prop]
-
-    4.3.1. [Capsule Components (Rotor)][prop_rotor]
-
-    4.3.2. [Tube Components (Stator)][prop_stator]
-
-    4.3.3. [Energy Storage Components][prop_energy]
-
-    4.3.4. [Cost][prop_cost]
-
-    4.3.5. [Propulsion for Passenger Plus Vehicle System][prop_passenger]
-
-    4.4. [Route][route]
-
-    4.4.1. [Route Optimization][route_opt]
-
-    4.4.1.1. [Los Angeles/Grapevine - South][route_la_s]
-
-    4.4.1.2. [Los Angeles/Grapevine – North][route_la_n]
-
-    4.4.1.2. [I-5][route_i5]
-
-    4.4.1.3. [I-580/San Francisco Bay][route_i580]
-
-    4.4.3. [Station Locations][route_stations]
-
-    4.5. [Safety and Reliability][safety]
-
-    4.5.1. [Onboard Passenger Emergency][safety_passenger]
-
-    4.5.2. [Power Outage][safety_power]
-
-    4.5.2. [Capsule Depressurization][safety_capsule]
-
-    4.5.3. [Capsule Stranded in Tube][safety_stranded]
-
-    4.5.4. [Structural Integrity of the Tube in Jeopardy][safety_tube]
-
-    4.5.5. [Earthquakes][safety_earth]
-
-    4.5.6. [Human Related Incidents][safety_human]
-
-    4.5.7. [Reliability][safety_reliability]
-
-    4.6. [Cost][cost]
-
-    6. [Conclusions][conclusions]
-
-    7. [Future Work][future]
+1. [Abstract][abstract]
+2. [Table of Contents][toc]
+3. [Background][background]
+4. [Hyperloop Transportation System][transport]
+4.1. [Capsule][capsule]
+4.1.1. [Geometry][capsule_geom]
+4.1.2. [Interior][capsule_interior]
+4.1.3. [Compressor][capsule_compressor]
+4.1.4. [Suspension][capsule_suspension]
+4.1.5. [Onboard Power][capsule_power]
+4.1.6. [Propulsion][capsule_propulsion]
+4.1.7. [Cost][capsule_cost]
+4.2. [Tube][tube] 
+4.2.1. [Geometry][tube_geom]
+4.2.2. [Tube Construction][tube_construction]
+4.2.3. [Pylons and Tunnels][tube_pylons]
+4.2.4. [Station Construction][tube_station]
+4.2.5. [Cost][tube_cost]
+4.3. [Propulsion][prop]
+4.3.1. [Capsule Components (Rotor)][prop_rotor]
+4.3.2. [Tube Components (Stator)][prop_stator]
+4.3.3. [Energy Storage Components][prop_energy]
+4.3.4. [Cost][prop_cost]
+4.3.5. [Propulsion for Passenger Plus Vehicle System][prop_passenger]
+4.4. [Route][route]
+4.4.1. [Route Optimization][route_opt]
+4.4.1.1. [Los Angeles/Grapevine - South][route_la_s]
+4.4.1.2. [Los Angeles/Grapevine – North][route_la_n]
+4.4.1.2. [I-5][route_i5]
+4.4.1.3. [I-580/San Francisco Bay][route_i580]
+4.4.3. [Station Locations][route_stations]
+4.5. [Safety and Reliability][safety]
+4.5.1. [Onboard Passenger Emergency][safety_passenger]
+4.5.2. [Power Outage][safety_power]
+4.5.2. [Capsule Depressurization][safety_capsule]
+4.5.3. [Capsule Stranded in Tube][safety_stranded]
+4.5.4. [Structural Integrity of the Tube in Jeopardy][safety_tube]
+4.5.5. [Earthquakes][safety_earth]
+4.5.6. [Human Related Incidents][safety_human]
+4.5.7. [Reliability][safety_reliability]
+4.6. [Cost][cost]
+6. [Conclusions][conclusions]
+7. [Future Work][future]
 
 
 [background]**3. Background**
