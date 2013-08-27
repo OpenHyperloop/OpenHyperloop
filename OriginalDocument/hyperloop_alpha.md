@@ -226,7 +226,7 @@ by LightSail.
 
 ****
 
-**1. Abstract**
+[abstract]**1. Abstract**
 
 Existing conventional modes of transportation of people consists of four unique
 types:  rail,  road,  water,  and  air.  These  modes  of  transport  tend  to  be  either
@@ -260,108 +260,96 @@ one-way ticket on the passenger Hyperloop.
 Useful  feedback  is  welcomed  on  aspects  of  the  Hyperloop  design.  E-mail
 feedback to[ hyperloop@spacex.com ](mailto:hyperloop@spacex.com)o[r hyperloop@teslamotors.com.](mailto:hyperloop@teslamotors.com)
 
-**2. Table of Contents**
+[toc]**2. Table of Contents**
 
-[1. Abstract.................................................................................. 6]()
+    1. [Abstract][abstract]
 
-[2. Table of Contents ...................................................................... 6]()
+    2. [Table of Contents][toc]
 
-[3. Background .............................................................................. 8]()
+    3. [Background][background]
 
-[4. Hyperloop Transportation System.................................................... 9]()
+    4. [Hyperloop Transportation System][transport]
 
+    4.1. [Capsule][capsule]
 
+    4.1.1. [Geometry][capsule_geom]
 
-[&nbsp;&nbsp;4.1. Capsule............................................................................ 11]()
+    4.1.2. [Interior][capsule_interior]
 
-[&nbsp;&nbsp;&nbsp;&nbsp;4.1.1. Geometry .................................................................... 13]()
+    4.1.3. [Compressor][capsule_compressor]
 
-[&nbsp;&nbsp;&nbsp;&nbsp;4.1.2. Interior....................................................................... 15]()
+    4.1.4. [Suspension][capsule_suspension]
 
-[&nbsp;&nbsp;&nbsp;&nbsp;4.1.3. Compressor.................................................................. 17]()
+    4.1.5. [Onboard Power][capsule_power]
 
-[&nbsp;&nbsp;&nbsp;&nbsp;4.1.4. Suspension................................................................... 20]()
+    4.1.6. [Propulsion][capsule_propulsion]
 
-[&nbsp;&nbsp;&nbsp;&nbsp;4.1.5. Onboard Power ............................................................. 22]()
+    4.1.7. [Cost][capsule_cost]
 
-[&nbsp;&nbsp;&nbsp;&nbsp;4.1.6. Propulsion ................................................................... 22]()
+    4.2. [Tube][tube] 
 
-[&nbsp;&nbsp;&nbsp;&nbsp;4.1.7. Cost........................................................................... 23]()
+    4.2.1. [Geometry][tube_geom]
 
- 
+    4.2.2. [Tube Construction][tube_construction]
 
-[&nbsp;&nbsp;4.2. Tube ............................................................................... 24]()
+    4.2.3. [Pylons and Tunnels][tube_pylons]
 
-[&nbsp;&nbsp;&nbsp;&nbsp;4.2.1. Geometry .................................................................... 25]()
+    4.2.4. [Station Construction][tube_station]
 
-[&nbsp;&nbsp;&nbsp;&nbsp;4.2.2. Tube Construction.......................................................... 26]()
+    4.2.5. [Cost][tube_cost]
 
-[&nbsp;&nbsp;&nbsp;&nbsp;4.2.3. Pylons and Tunnels......................................................... 27]()
+    4.3. [Propulsion][prop]
 
-[&nbsp;&nbsp;&nbsp;&nbsp;4.2.4. Station Construction ....................................................... 31]()
+    4.3.1. [Capsule Components (Rotor)][prop_rotor]
 
-[&nbsp;&nbsp;&nbsp;&nbsp;4.2.5. Cost........................................................................... 32]()
+    4.3.2. [Tube Components (Stator)][prop_stator]
 
- 
+    4.3.3. [Energy Storage Components][prop_energy]
 
-[&nbsp;&nbsp;4.3. Propulsion ........................................................................ 32]()
+    4.3.4. [Cost][prop_cost]
 
-[&nbsp;&nbsp;&nbsp;&nbsp;4.3.1. Capsule Components (Rotor) ............................................. 35]()
+    4.3.5. [Propulsion for Passenger Plus Vehicle System][prop_passenger]
 
-[&nbsp;&nbsp;&nbsp;&nbsp;4.3.2. Tube Components (Stator) ................................................ 36]()
+    4.4. [Route][route]
 
-[&nbsp;&nbsp;&nbsp;&nbsp;4.3.3. Energy Storage Components .............................................. 37]()
+    4.4.1. [Route Optimization][route_opt]
 
-[&nbsp;&nbsp;&nbsp;&nbsp;4.3.4. Cost........................................................................... 37]()
+    4.4.1.1. [Los Angeles/Grapevine - South][route_la_s]
 
-[&nbsp;&nbsp;&nbsp;&nbsp;4.3.5. Propulsion for Passenger Plus Vehicle System ......................... 38]()
+    4.4.1.2. [Los Angeles/Grapevine – North][route_la_n]
 
- 
+    4.4.1.2. [I-5][route_i5]
 
-[&nbsp;&nbsp;4.4. Route .............................................................................. 38]()
+    4.4.1.3. [I-580/San Francisco Bay][route_i580]
 
-[&nbsp;&nbsp;&nbsp;&nbsp;4.4.1. Route Optimization ........................................................ 40]()
+    4.4.3. [Station Locations][route_stations]
 
-[&nbsp;&nbsp;&nbsp;&nbsp;4.4.1.1. Los Angeles/Grapevine - South ........................................ 43]()
+    4.5. [Safety and Reliability][safety]
 
-[&nbsp;&nbsp;&nbsp;&nbsp;4.4.1.2. Los Angeles/Grapevine – North ........................................ 45]()
+    4.5.1. [Onboard Passenger Emergency][safety_passenger]
 
-[&nbsp;&nbsp;&nbsp;&nbsp;4.4.1.2. I-5 .......................................................................... 47]()
+    4.5.2. [Power Outage][safety_power]
 
-[&nbsp;&nbsp;&nbsp;&nbsp;4.4.1.3. I-580/San Francisco Bay................................................. 48]()
+    4.5.2. [Capsule Depressurization][safety_capsule]
 
-[&nbsp;&nbsp;&nbsp;&nbsp;4.4.3. Station Locations ........................................................... 50]()
+    4.5.3. [Capsule Stranded in Tube][safety_stranded]
 
- 
+    4.5.4. [Structural Integrity of the Tube in Jeopardy][safety_tube]
 
-[&nbsp;&nbsp;4.5. Safety and Reliability ........................................................... 52]()
+    4.5.5. [Earthquakes][safety_earth]
 
-[&nbsp;&nbsp;&nbsp;&nbsp;4.5.1. Onboard Passenger Emergency........................................... 52]()
+    4.5.6. [Human Related Incidents][safety_human]
 
-[&nbsp;&nbsp;&nbsp;&nbsp;4.5.2. Power Outage ............................................................... 53]()
+    4.5.7. [Reliability][safety_reliability]
 
-[&nbsp;&nbsp;&nbsp;&nbsp;4.5.2. Capsule Depressurization ................................................. 53]()
+    4.6. [Cost][cost]
 
-[&nbsp;&nbsp;&nbsp;&nbsp;4.5.3. Capsule Stranded in Tube ................................................. 54]()
+    6. [Conclusions][conclusions]
 
-[&nbsp;&nbsp;&nbsp;&nbsp;4.5.4. Structural Integrity of the Tube in Jeopardy........................... 54]()
-
-[&nbsp;&nbsp;&nbsp;&nbsp;4.5.5. Earthquakes ................................................................. 54]()
-
-[&nbsp;&nbsp;&nbsp;&nbsp;4.5.6. Human Related Incidents ................................................. 54]()
-
-[&nbsp;&nbsp;&nbsp;&nbsp;4.5.7. Reliability.................................................................... 55]()
-
- 
-
-[&nbsp;&nbsp;4.6. Cost................................................................................ 55]()
-
-[6. Conclusions ............................................................................ 56]()
-
-[7. Future Work ........................................................................... 57]()
+    7. [Future Work][future]
 
 
-**3. Background**
+[background]**3. Background**
 
 The  corridor  between  San  Francisco,  California  and  Los  Angeles,  California  is
 one  of  the  most  often  traveled  corridors  in  the  American  West.  The  current
@@ -416,7 +404,7 @@ journey between Los Angeles and San Francisco for**
 
 **various modes of transport.**
 
-**4. Hyperloop Transportation System**
+[transport]**4. Hyperloop Transportation System**
 
 Hyperloop [(Figure 2 ](hyperloop_alpha.html#10)throu[gh Figure 3) ](hyperloop_alpha.html#11)is a proposed transportation system for
 traveling  between  Los  Angeles,  California, and  San  Francisco,  California  in  35
@@ -478,7 +466,7 @@ those  travelers  to  use  the  Hyperloop  during  rush  hour.  The  lower  cost
 traveling  on  Hyperloop  is  likely  to  result  in  increased  demand,  in  which  case
 the time between capsule departures could be significantly shortened.
 
-**4.1. Capsule**
+[capsule]**4.1. Capsule**
 
 Two versions of the Hyperloop capsules are being considered: a passenger only
 version and a passenger plus vehicle version.
@@ -528,7 +516,7 @@ the outer mold line[ (Figure 4).](hyperloop_alpha.html#12)
 **Figure 4. Hyperloop passenger capsule subsystem
 notional locations (not to scale).**
 
-**4.1.1. Geometry**
+[capsule_geom]**4.1.1. Geometry**
 
 In order to optimize the capsule speed and performance, the frontal area has
 been  minimized  for  size  while  maintaining  passenger  comfort  [(Figure  5  ](hyperloop_alpha.html#13)and
@@ -588,7 +576,7 @@ including the luggage compartments and door mechanism. The overall cost of
 the structure including
 manufacturing is targeted to be no more than \$275,000.
 
-**4.1.2. Interior**
+[capsule_interior]**4.1.2. Interior**
 
 The  interior  of  the  capsule  is  specifically  designed  with  passenger  safety  and
 comfort  in  mind.  The  seats  conform  well  to  the  body  to  maintain  comfort
@@ -618,7 +606,7 @@ interior  and  door  panels,  luggage  compartments,  and  entertainment  displa
 The  overall  cost  of  the  interior  components  is  targeted  to  be  no  more  than
 \$185,000.
 
-**4.1.3. Compressor**
+[capsule_compressor]**4.1.3. Compressor**
 
 One important feature of the capsule is the onboard compressor, which serves
 two purposes. This system allows the capsule to traverse the relatively narrow
@@ -719,7 +707,7 @@ c.  Onboard  batteries  are  changed  at  each  stop  and  charged  at  the
 **Figure 11. Compressor schematic
 for passenger plus vehicle capsule.**
 
-**4.1.4. Suspension**
+[capsule_suspension]**4.1.4. Suspension**
 
 Suspending  the  capsule  within  the  tube  presents  a  substantial  technical
 challenge  due  to  transonic  cruising  velocities.  Conventional  wheel  and  axle
@@ -816,7 +804,7 @@ about  8,400  lb  (3,800  kg)  including  the  compressors,  air  tank,  plumbin
 suspension,  and  bearing  surfaces.  The  overall  cost  of  the  air  bearing
 components is targeted to be no more than \$565,000.
 
-**4.1.5. Onboard Power**
+[capsule_power]**4.1.5. Onboard Power**
 
 The passenger capsule power system includes an estimated 5,500 lb (2,500 kg)
 of batteries to power the onboard compressor and capsule systems in addition
@@ -831,7 +819,7 @@ and electronic components cost is estimated to be near \$200,000 per
 capsule in
 addition to the cost of the suspension system.
 
-**4.1.6. Propulsion**
+[capsule_propulsion]**4.1.6. Propulsion**
 
 In order to propel the vehicle at the required travel speed, an advanced linear
 motor  system  is  being  developed  to  accelerate  the  capsule  above  760  mph
@@ -855,7 +843,7 @@ The overall cost of the system is targeted to be no more than \$150,000. This
 brings the total capsule weight near 57,000 lb (26,000) kg including passenger,
 luggage, and vehicle weight.
 
-**4.1.7. Cost**
+[capsule_cost]**4.1.7. Cost**
 
 The  overall  cost  of  the  Hyperloop  passenger  capsule  version  [(Table  1)  ](hyperloop_alpha.html#23)is
 expected to be under \$1.35 million USD including manufacturing and assembly
@@ -871,82 +859,40 @@ increased to 10 ft 10 in. (3.3 m).
 
 **Table 1. Crew capsule weight and cost breakdown**
 
-    **Vehicle Component**            **Cost (\$)**        **Weight (kg)**
-
+    Vehicle Component              Cost ($)     Weight (kg)
     Capsule Structure & Doors:   $   245,000      3100
-
     Interior & Seats:            $   255,000      2500
-
     Propulsion System:           $    75,000       700
-
     Suspension & Air Bearings:   $   200,000      1000
-
     Batteries, Motor & Coolant:  $   150,000      2500
-
     Air Compressor:              $   275,000      1800
-
     Emergency Braking:           $    50,000       600
-
     General Assembly:            $   100,000       N/A
-
     Passengers & Luggage:                N/A      2800
 
     Total/Capsule:               $ 1,350,000     15000
 
-    Total for Hyperloop:         ** $54,000,000 **
+    Total for Hyperloop:         $54,000,000
 
 **Table 2. Cargo and crew capsule weight and cost breakdown**
 
-**Vehicle Component**
+    Vehicle Component              Cost ($)    Weight (kg)
+    Capsule Structure & Doors:   $   275,000      3500
+    Interior & Seats:            $   185,000      2700
+    Propulsion System:           $    80,000       800
+    Suspension & Air Bearings:   $   265,000      1300
+    Batteries, Motor & Coolant:  $   200,000      5500
+    Air Compressor:              $   300,000      2500
+    Emergency Braking:           $    70,000       800
+    General Assembly:            $   150,000       N/A
+    Passengers & Luggage:                N/A      1400
+    Car & Cargo:                         N/A      7500
+   
+    Total/Capsule:               $ 1,525,000     26000
 
-**Cost (\$)**
+    Total for Hyperloop:         $61,000,000
 
-**Weight (kg)**
-
-
-
- Capsule Structure & Doors:
-  \$        275,000
- 3500
- Interior & Seats:
-  \$        185,000
- 2700
- Propulsion System:
-  \$          80,000
- 800
- Suspension & Air Bearings:
-  \$        265,000
- 1300
- Batteries, Motor & Coolant:
-  \$        200,000
- 5500
- Air Compressor:
-  \$        300,000
- 2500
- Emergency Braking:
-  \$          70,000
- 800
- General Assembly:
-  \$        150,000
- N/A
- Passengers & Luggage:
-  N/A
- 1400
- Car & Cargo:
-  N/A
- 7500
-
-** **
-
- Total/Capsule:
-  \$     1,525,000
- 26000
- Total for Hyperloop:
-
-** \$  61,000,000 **
-
-
-**4.2. Tube**
+[tube]**4.2. Tube**
 
 The  main  Hyperloop  route  consists  of  a  partially  evacuated  cylindrical  tube
 that  connects  the  Los  Angeles  and  San  Francisco  stations  in  a  closed  loop
@@ -983,7 +929,7 @@ accelerate  (or  decelerate)  the  capsule.  More  details  are  available  for 
 propulsion  system  in  section  4.3.  Between  linear  motor  stations,  the  capsule
 will glide with little drag via air bearings.
 
-**4.2.1. Geometry**
+[tube_geom]**4.2.1. Geometry**
 
 The  geometry  of  the  tube  depends  on  the  choice  of  either  the  passenger
 version of Hyperloop or the passenger plus vehicles version of
@@ -1053,7 +999,8 @@ locations  along  the  length  of  the  tube  to  maintain  the  required  press
 despite any possible leaks through the joint and stations. The expected cost of
 all required vacuum pumps is expected to be no more than \$10 million USD.
 
-**4.2.2. Tube Construction
+[tube_construction]**4.2.2. Tube Construction
+
 **In order to keep cost to a minimum, a uniform thickness steel tube reinforced
 with  stringers  was  selected  as  the  material  of  choice  for  the  inner  diameter
 tube  Tube  sections  would  be  pre-fabricated  and  installed  between  pillar
@@ -1087,7 +1034,7 @@ to  be  less  than  \$1.2  billion  USD.  Since  the  spacing  between  pillars 
 change  and  the  pillars  are  more  expensive  than  the  tube,  the  overall  cost
 increase is kept to a minimum.
 
-**4.2.3. Pylons and Tunnels**
+[tube_pylons]**4.2.3. Pylons and Tunnels**
 
 The tube will be supported by pillars which constrain the tube in the vertical
 direction but allow longitudinal slip for thermal expansion as well as dampened
@@ -1155,7 +1102,7 @@ principal stress at 1g Inertia in X (psi) (magnified x10).**
 **Figure 20. Maximum
 shear stress at 1g Inertia in X (psi) (magnified x10).**
 
-**4.2.4. Station Construction**
+[tube_station]**4.2.4. Station Construction**
 
 The intention for Hyperloop stations is for them to be minimalist but practical
 and with a boarding process and layout much simpler than airports.
@@ -1201,7 +1148,8 @@ occurring in parallel with up to three capsules at a given station at any time.
 The expected cost for each station is expected to be around \$125 million for a
 total of \$250 million** **USD initially.
 
-**4.2.5. Cost
+[tube_cost]**4.2.5. Cost
+
 **The  overall  cost  of  the  tube,  pillars,  vacuum  pumps  and  stations  is  thus
 expected  to  be  around  \$4.06  billion  USD  for  the  passenger  version  of
 Hyperloop.  This  does  not  include  the  cost  of  the  propulsion  linear  motors  or
@@ -1213,7 +1161,7 @@ capsules  to  fit,  would  have  a  total  cost  including  the  tube,  pillars,
 pumps, and stations around \$5.31 billion USD. This minimal cost increase would
 allow a much more versatile Hyperloop system.
 
-**4.3. Propulsion**
+[prop]**4.3. Propulsion**
  The propulsion system has these basic requirements:
 
 1.  Accelerate  the  capsule  from  0  to  300  mph  (480  kph)  for  relatively  low
@@ -1277,43 +1225,13 @@ factor seen by the inverters.
 The  inverters  are  physically  located  at  the  highest  speed  end  of  the  track  to
 minimize conductor cost.
 
-6MW grid
- connection and grid
- tie inverter
- Solar system
- Distributed along length, 285MW peak power total
- Energy storage
- E = 36 MWhr
- PCONT = 37MW
- PPEAK = 52MW
- HVDC bus
- Traction inverters
- 65MVA each
- Linear motors for
- Solid-state switches
- arrival track
- M
- M
- M
- M
- M
- M
- M
- M
- Linear motors for
- departure track
- Low speed (300mph) end
- High speed (700mph) end
- Traction power = 20MW
- Traction power = 46MW
-
 ![](images/hyperloop_alpha-35_1.png)
 
 **Figure 22. Linear accelerator concept for capsule acceleration and deceleration between 300**
 
 **and 760 mph (480 and 1,220 kph).**
 
-**4.3.1. Capsule Components (Rotor)**
+[prop_rotor]**4.3.1. Capsule Components (Rotor)**
 
 The  rotor  of  the  linear  accelerators  is  very simple  –  an  aluminum  blade  49  ft
 (15 m) long, 1.5 ft (0.45 m) tall, and 2 in. (50 mm) thick. Current flows mainly
@@ -1329,8 +1247,8 @@ gap.
 
 **Figure 23. Magnetic field strength inside linear induction motor**
 
-**4.3.2. Tube Components (Stator)
-**
+[prop_stator]**4.3.2. Tube Components (Stator)**
+
 The stator is mounted to the bottom of the tube over the entire 2.5 miles (4.0
 km) it takes to accelerate and decelerate between 300 and 760 mph (480 and
 1,220 km). It is approximately  1.6 ft (0.5 m) wide (including the air gap) and
@@ -1349,7 +1267,7 @@ bracing  to  resist  the  magnetic  forces  of  20  lbf/ft  (300N/m)  that  try 
 
 **Figure 24. Cross section of rotor inside stator**
 
-**4.3.3. Energy Storage Components**
+[prop_energy]**4.3.3. Energy Storage Components**
 
 Energy storage allows this linear accelerator to only draw its average power of
 8,000 hp (6 MW) (rather than the peak power of 70,000 hp or 52 MW) from its
@@ -1364,7 +1282,7 @@ the battery could
 be directly connected to the HVDC bus, eliminating the need for an additional
 DC/DC converter to connect it to the propulsion system.
 
-**4.3.4. Cost**
+[prop_cost]**4.3.4. Cost**
 
 As described above, the propulsion elements on the capsule are limited to the
 rotor  and  not  expected  to  cost  any  more  than  \$3  million  USD  for  the  overall
@@ -1379,7 +1297,7 @@ costs together for linear accelerators add up to \$140 million USD.
 The solar array and associated electronics provide an average power of 28,000
 hp (21 MW) and are expected to cost approximately \$210 million USD.
 
-**4.3.5. Propulsion for Passenger Plus Vehicle System**
+[prop_passenger]**4.3.5. Propulsion for Passenger Plus Vehicle System**
 
 Compared  to  the  passenger-only  capsule,  the  passenger  plus  vehicle  capsule
 weighs more, requires a more powerful compressor, and has 50% higher total
@@ -1390,14 +1308,18 @@ the wider tubes (122,000 hp or 91 MW, on average) to provide this.
 
 The expected total cost for this larger propulsion system is \$691 million USD,
 divided as follows:
- -  66,000 hp (49 MW) (yearly average) solar array: \$490 million USD
 
- -  Propulsion system total: \$200 million USD
- o  Stator and structure materials = 47%
-o  Power electronics = 37%
-o  Energy storage = 16%
+*  66,000 hp (49 MW) (yearly average) solar array: \$490 million USD
 
-**4.4. Route**
+*  Propulsion system total: \$200 million USD
+
+*  Stator and structure materials = 47%
+
+*  Power electronics = 37%
+
+*  Energy storage = 16%
+
+[route]**4.4. Route**
 
 The  Hyperloop  will  be  capable  of  traveling  between  Los  Angeles  and  San
 Francisco  in  approximately  35  minutes.  This  requirement  tends  to  size  other
@@ -1405,14 +1327,13 @@ portions of the system. Given the performance specification of the Hyperloop,
 a  route  has  been  devised  to  satisfy  this  design  requirement.  The  Hyperloop
 route should be based on several considerations, including:
 
-1.  Maintaining the tube as closely as possible to existing rights of way (e.g.,
- following the I-5).
+1.  Maintaining the tube as closely as possible to existing rights of way (e.g., following the I-5).
 
-2.  Limiting  the  maximum  capsule  speed  to  760  mph  (1,220  kph)  for
- aerodynamic considerations.
- 3.  Limiting accelerations on the passengers to 0.5g.
-4.  Optimizing  locations  of  the  linear  motor  tube  sections  driving  the
- capsules.
+2.  Limiting  the  maximum  capsule  speed  to  760  mph  (1,220  kph)  for aerodynamic considerations.
+
+3.  Limiting accelerations on the passengers to 0.5g.
+
+4.  Optimizing  locations  of  the  linear  motor  tube  sections  driving  the capsules.
 
 5.  Local  geographical  constraints,  including  location  of  urban  areas,
 
@@ -1441,7 +1362,7 @@ allow a degree of ‘banking’.
 **Figure 25. Overview of Hyperloop route
 from Los Angeles to San Francisco.**
 
-**4.4.1. Route Optimization**
+[route_opt]**4.4.1. Route Optimization**
 
 In  order  to  avoid  bend  radii  that  would  lead  to  uncomfortable  passenger
 inertial accelerations and hence limit  velocity, it is necessary to optimize the
@@ -1458,21 +1379,25 @@ million  per  mile  (\$31  million  per  km).  The  small  diameter  of  the  Hy
 tube should keep tunneling costs to a far
 more reasonable level than traditional
 automotive and rail tunnels.
+
  The route has been divided into the following sections:
+
 * Los Angeles/Grapevine – South and North
 * I-5
 * I-580/San Francisco Bay
+
  *Summary*
 
-•  300 mph (480 kph) for the Los Angeles Grapevine South section at 0.5g.
+*  300 mph (480 kph) for the Los Angeles Grapevine South section at 0.5g.
  Total time of 167 seconds
 
-•  555 mph (890 kph) for the Los Angeles Grapevine North section at 0.5g.
+*  555 mph (890 kph) for the Los Angeles Grapevine North section at 0.5g.
  Total travel time of 435 seconds
- •  760 mph (1,220 kph ) along I-5 at 0.5g.
+
+*  760 mph (1,220 kph ) along I-5 at 0.5g.
  Total travel time of 1,518 seconds
 
-•  555  mph  (890  kph)  along  I-580  slowing  to  300  mph  (480  kph)  into  San
+*  555  mph  (890  kph)  along  I-580  slowing  to  300  mph  (480  kph)  into  San
  Francisco.
 
  Total travel time of 2,134 seconds (35 minutes)
@@ -1490,7 +1415,8 @@ from Los Angeles departure.**
 **Figure 27. Distance of capsule as a function of time
 from Los Angeles departure.**
 
-**4.4.1.1. Los Angeles/Grapevine - South**
+[route_la_s]**4.4.1.1. Los Angeles/Grapevine - South**
+
  *Visualization* -
  The  preliminary  route  is  shown  in  yellow.  Bend  radii  are
 shown  in  red.  The  green  dashed  line  delineates  the
@@ -1505,38 +1431,23 @@ proposed Hyperloop route.**
 
 **Table 3. Los Angeles/Grapevine South data at 300 mph (480 kph).**
 
-**Criteria**
+    Criteria                    0.5g Acceleration
+    Min. bend radius at        2.28 miles (3.67 km)
+    300 mph (483 kph)
+    Section Distance           13.4 miles (21.6 km)
+    Journey time               167.6 seconds
+    Tunnel distance            1.0 miles (1.61 km)
+    No. of 20 ft (6 m)         563
+    pylons
+    No. of 50 ft (15 m)         80
+    pylons
+    No. of 100 ft (30 m)        12
+    Pylons
+    Additional length          1.20 miles (1.93 km)
+    Required
 
-**0.5g**
+[route_la_n]**4.4.1.2. Los Angeles/Grapevine – North**
 
-**  Acceleration**
- Min. bend radius at
- 300 mph (483 kph)
- 2.28 miles
- (3.67 km)
- Section Distance
- 13.4 miles
- (21.6 km)
- Journey time
- 167.6 seconds
- Tunnel distance
- 1.0 miles
- (1.61 km)
-No. of 20 ft (6 m)
- 563
- pylons
-No. of 50 ft (15 m)
- pylons
- 80
- No. of 100 ft (30 m)
- 12
- Pylons
-Additional length
- Required
- 1.20 miles
- (1.93 km)
-
-**4.4.1.2. Los Angeles/Grapevine – North**
  *Visualization* -
  The  preliminary  route  is  shown  in  yellow.  Bend  radii  are
 shown  in  red.  The  green  dashed  line  delineates  the
@@ -1552,38 +1463,23 @@ proposed Hyperloop route.**
 
 **Table 4. Los Angeles/Grapevine North data at 555 mph (890 kph).**
 
-**Criteria**
+    Criteria                   0.5g Acceleration
+    Min. bend radius at        7.80 miles (12.6 km)
+    555 mph (890 kph)
+    Distance                   40.0 miles (64.4 km)
+    Journey time               267.4 seconds
+    Tunnel distance            10.7 miles (17.2 km)
+    No. of 20 ft (6 m)         492
+    Pylons
+    No. of 50 ft (15 m)        260
+    Pylons
+    No. of 100 ft (30 m)       795
+    Pylons
+    Additional length          24 miles (38.6 km)
+    required
 
-**0.5g**
+[route_i5]**4.4.1.2. I-5**
 
-**Acceleration**
- Min. bend radius at
- 555 mph (890 kph)
- 7.80 miles
- (12.6 km)
- Distance
- 40.0 miles
- (64.4 km)
- Journey time
- 267.4 seconds
- Tunnel distance
- 10.7 miles
- (17.2 km)
- No. of 20 ft (6 m)
- Pylons
- 492
- No. of 50 ft (15 m)
- Pylons
- 260
- No. of 100 ft (30 m)
- Pylons
- 795
- Additional length
- required
- 24 miles
- (38.6 km)
-
-**4.4.1.2. I-5**
  *Visualization* -
  The  preliminary  route  is  shown  in  yellow.  Bend  radii  are
 shown in red.
@@ -1596,38 +1492,23 @@ shown in red.
 
 **Table 5. I-5 Section data at 760 mph (1,120 kph).**
 
-**Criteria**
+    Criteria                   0.5g Acceleration
+    Min. bend radius at 760      14.6 miles (23.5 km)
+    mph (1,220 kph)
+    Distance                     227 miles (365 km)
+    Journey time                 1,173.0 seconds
+    Tunnel distance              0 miles (0 km)
+    No. of 20 ft (6 m)           10,930
+    pylons
+    No. of 50 ft (15 m)          1,056
+    pylons
+    No. of 100 ft (30 m)         0
+    pylons
+    Additional length            14 miles (22.5 km)
+    required
 
-**0.5g**
+[route_i580]**4.4.1.3. I-580/San Francisco Bay**
 
-**Acceleration**
- Min. bend radius at 760
-mph (1,220 kph)
- 14.6 miles
- (23.5 km)
- Distance
- 227 miles
- (365 km)
- Journey time
- 1,173.0 seconds
- Tunnel distance
- 0 miles
- (0 km)
- No. of 20 ft (6 m)
- pylons
- 10,930
- No. of 50 ft (15 m)
- pylons
- 1,056
- No. of 100 ft (30 m)
-pylons
- 0
- Additional length
- required
- 14 miles
- (22.5 km)
-
-**4.4.1.3. I-580/San Francisco Bay**
  *Visualization* -
  The  preliminary  route  is  shown  in  yellow.  Bend  radii  are
 shown in red.
@@ -1642,50 +1523,28 @@ straight sections.
 proposed Hyperloop route.**
 
 **Table 6. I-580/San Francisco Bay Section data at
-300, 555, and 760 mph (480, 890, and 1,120**
+300, 555, and 760 mph (480, 890, and 1,120 kph, respectively).**
 
-**kph, respectively).**
+    Criteria                  0.5g Acceleration
+    Min. bend radius at        2.28 miles (3.67 km)
+    300 mph (480 kph)
+    Min. bend radius at        7.80 miles (12.55 km)
+    555 mph (890 kph)
+    Min. bend radius at        14.6 miles (23.5 km)
+    760 mph (1,220 kph)
+    Distance                   73.9 miles (119 km)
+    Journey time               626.0 seconds
+    Tunnel distance            3.5 miles (5.6 km)
+    No. of 20 ft (6 m)         2,783
+    pylons
+    No. of 50 ft (15 m)        775
+    pylons
+    No. of 100 ft (30 m)       159
+    pylons
+    Additional length          5.7 miles (9.2 km)
+    required
 
-**Criteria**
-
-**0.5g**
-
-**Acceleration**
- Min. bend radius at
- 300 mph (480 kph)
- 2.28 miles
- (3.67 km)
- Min. bend radius at
- 555 mph (890 kph)
- 7.80 miles
- (12.55 km)
- Min. bend radius at
- 760 mph (1,220 kph)
- 14.6 miles
- (23.5 km)
- Distance
- 73.9 miles
- (119 km)
- Journey time
- 626.0 seconds
- Tunnel distance
- 3.5 miles
- (5.6 km)
- No. of 20 ft (6 m)
- pylons
- 2,783
- No. of 50 ft (15 m)
- pylons
- 775
- No. of 100 ft (30 m)
- pylons
- 159
- Additional length
- required
- 5.7 miles
- (9.2 km)
-
-**4.4.3. Station Locations**
+[route_stations]**4.4.3. Station Locations**
 
 The  major  stations  for  Hyperloop  are  suggested  based  on  high  traffic  regions
 between  major  cities.  The  largest  cities  by  metro  population  in  California
@@ -1694,35 +1553,17 @@ considered for station locations.
 
 **Table 7. Largest cities in California by 2013 population.**
 
-**City**
-
-**Population**
-
-****
-
-**(millions)**
- Los Angeles
- 18.1
- San
- Francisco/San
- 8.4
- Jose
- San Diego
- 3.1
- Sacramento
- 2.6
- Fresno
- 1.1
+    City                   Population (millions)
+    Los Angeles               18.1
+    San Francisco/San Jose    8.4
+    San Diego                 3.1
+    Sacramento                2.6
+    Fresno                    1.1
 
 Stations at these major population centers are considered for Hyperloop.  One
 additional  traffic  corridor  to  consider  is  between  Los  Angeles,  California  and
 Las Vegas, Nevada with a metro population of 2.1 million. Significant traffic is
 present through this corridor on a weekly basis.
-
-**Suggested main route
-Suggested main stations
-Proposed branches
-Proposed branch stations**
 
 ![](images/hyperloop_alpha-51_1.jpg)
 
@@ -1737,39 +1578,40 @@ decreased travel time and decreased travel cost.
 
 Additional Hyperloop stations are suggested considered at the following major
 population centers:
- 1.  San Diego, California:
- a.  Connects to Los Angeles, California main station.
-b.  Capsule departures every 5 minutes.
-c.  Transports around 3 million people per year.
- 2.  Las Vegas, Nevada:
-a.  Connects to Los Angeles, California main station.
-b.  Uses a portion of the San Diego branch route near Los Angeles and
- tube branches near San Bernardino, California.
- c.  Capsule departures every 8 minutes.
-d.  Transports around 1.8 million people per year.
- 3.  Sacramento, California:
- a.  Connects to San Francisco, California main station.
-b.  Uses  a  portion  of  the  main  route  near  San  Francisco  and  tube
- branches near Stockton, California.
- c.  Capsule departures every 15 minutes.
-d.  Transports around 1 million people per year.
- 4.  Fresno, California:
 
-a.  Connects  to  both  San  Francisco,  California  and  Los  Angeles,
- California main stations.
- b.  Los Angeles bound travelers:
+    1.  San Diego, California:
 
-i.  Uses  the  main  route  closer  to  San  Francisco  plus  a  small
- branch along State Route 41 near Fresno.
- ii.  Capsule departures every 15 minutes.
- iii.  Transports around 1 million people per year.
- c.  San Francisco bound travelers:
- i.  Uses  the  main  route  closer  to  Los  Angeles  plus  a  small
- branch along State Route 41 near Fresno.
- ii.  Capsule departures every 30 minutes.
- iii.  Transports around 0.5 million people per year.
+    a.  Connects to Los Angeles, California main station.
+    b.  Capsule departures every 5 minutes.
+    c.  Transports around 3 million people per year.
 
-**4.5. Safety and Reliability**
+    2.  Las Vegas, Nevada:
+
+    a.  Connects to Los Angeles, California main station.
+    b.  Uses a portion of the San Diego branch route near Los Angeles and tube branches near San Bernardino, California.
+    c.  Capsule departures every 8 minutes.
+    d.  Transports around 1.8 million people per year.
+
+    3.  Sacramento, California:
+
+    a.  Connects to San Francisco, California main station.
+    b.  Uses  a  portion  of  the  main  route  near  San  Francisco  and  tube branches near Stockton, California.
+    c.  Capsule departures every 15 minutes.
+    d.  Transports around 1 million people per year.
+
+    4.  Fresno, California:
+
+    a.  Connects  to  both  San  Francisco,  California  and  Los  Angeles, California main stations.
+    b.  Los Angeles bound travelers:
+        i.  Uses  the  main  route  closer  to  San  Francisco  plus  a  small branch along State Route 41 near Fresno.
+        ii.  Capsule departures every 15 minutes.
+        iii.  Transports around 1 million people per year.
+    c.  San Francisco bound travelers:
+        i.  Uses  the  main  route  closer  to  Los  Angeles  plus  a  small branch along State Route 41 near Fresno.
+        ii.  Capsule departures every 30 minutes.
+        iii.  Transports around 0.5 million people per year.
+
+[safety]**4.5. Safety and Reliability**
 
 The  design  of  Hyperloop  has  been  considered  from  the  start  with  safety  in
 mind.    Unlike  other  modes  of  transport,  Hyperloop  is  a  single  system  that
@@ -1786,7 +1628,7 @@ should be considered relative to other forms of transportation.  In many cases
 Hyperloop is intrinsically safer than airplanes, trains, or
 automobiles.** **
 
-**4.5.1. Onboard Passenger Emergency**
+[safety_passenger]**4.5.1. Onboard Passenger Emergency**
 
 All capsules would have direct radio contact with station operators in case of
 emergencies,  allowing  passengers  to  report  any  incident,  to  request  help  and
@@ -1808,7 +1650,7 @@ cleared, airplane landed, taxi to a gate, and doors opened.  An emergency in a
 Hyperloop capsule simply requires the system to complete the planned journey
 and meet emergency personnel at the destination.
 
-**4.5.2. Power Outage**
+[safety_power]**4.5.2. Power Outage**
 
 The vast majority of the Hyperloop travel distance is spent coasting and so the
 capsule does not require continuous power to travel. The capsule life support
@@ -1826,7 +1668,7 @@ In summary, all journeys would be completed as expected from the passenger’s
 perspective.    Normal  travel  schedules  would  be  resumed  after  power  was
 restored.
 
-**4.5.2. Capsule Depressurization**
+[safety_capsule]**4.5.2. Capsule Depressurization**
 
 Hyperloop  capsules  will  be  designed  to  the  highest  safety  standards  and
 manufactured  with  extensive  quality  checks  to  ensure  their  integrity.  In  the
@@ -1843,7 +1685,7 @@ In the unlikely event of a large scale capsule depressurization, other capsules
 in the tube would automatically begin emergency braking whilst the Hyperloop
 tube would undergo rapid re-pressurization along its entire length.
 
-**4.5.3. Capsule Stranded in Tube**
+[safety_stranded]**4.5.3. Capsule Stranded in Tube**
 
 A  capsule  becoming  stranded  in  the  Hyperloop  tube  is  highly  unlikely  as  the
 capsule  coasts  the  majority  of  the  distance  at  high  speed  and  so  there  is  no
@@ -1859,7 +1701,7 @@ small onboard electric motors to power deployed wheels.
 All  capsules  would  be  equipped  with  a  reserve  air  supply  great  enough  to
 ensure the safety of all passengers for a worst case scenario event.
 
-**4.5.4. Structural Integrity of the Tube in Jeopardy**
+[safety_tube]**4.5.4. Structural Integrity of the Tube in Jeopardy**
 
 A minor depressurization of the tube is unlikely to affect Hyperloop capsules or
 passengers  and  would  likely  be  overcome  by  increased  vacuum  pump  power.
@@ -1870,7 +1712,7 @@ In  the  event  of  a  large  scale  leak,  pressure  sensors  located  along  t
 would automatically communicate with all capsules to deploy their emergency
 mechanical braking systems.
 
-**4.5.5. Earthquakes**
+[safety_earth]**4.5.5. Earthquakes**
 
 California is no stranger to earthquakes and transport systems and all built with
 earthquakes  in  mind.  Hyperloop  would  be  no  different  with  the  entire  tube
@@ -1881,7 +1723,7 @@ It  is  also  likely  that  in  the  event  of  a  severe  earthquake,  Hyperloo
 would be commanded remotely to actuate their mechanical emergency braking
 systems.
 
-**4.5.6. Human Related Incidents**
+[safety_human]**4.5.6. Human Related Incidents**
 
 Hyperloop  would  feature  the  same  high  level  of  security  used  at  airports.
 However,  the  regular  departure  of  Hyperloop  capsules  would  result  in  a
@@ -1890,15 +1732,16 @@ airports.  Tubes located on pylons would limit access to the critical elements o
 the system.   Multiple redundant power sources and vacuum pumps would limit
 the impact of any single element.
 
-**4.5.7. Reliability
-**The Hyperloop system comprising all infrastructure, mechanical,
+[safety_reliability]**4.5.7. Reliability**
+
+The Hyperloop system comprising all infrastructure, mechanical,
 electrical, and
 software components will be designed so that it is reliable, durable, and fault
 tolerant  over  its  service  life  (100  years),  while  maintaining  safety  levels  that
 match or exceed the safety standard of
 commercial air transportation.
 
-**4.6. Cost**
+[cost]**4.6. Cost**
 
 The total cost of the Hyperloop passenger transportation system as outlined is
 less  than  \$6  billion  USD  [(Table  8).](hyperloop_alpha.html#55)  The  passenger  plus  vehicle  version  of
@@ -1907,197 +1750,67 @@ outlined as \$7.5 billion USD[ (Table 9).](hyperloop_alpha.html#55)
 
 **Table 8. Total cost of the Hyperloop passenger transportation system.**
 
-**Cost**
+    Component                 Cost (million USD)
+    Capsule                      54 (40 capsules)
+    Capsule Structure & Doors     9.8
+    Interior & Seats             10.2
+    Compressor & Plumbing        11
+    Batteries & Electronics       6
+    Propulsion                    5
+    Suspension & Air Bearings     8
+    Components Assembly           4
 
-**Component**
- (million USD)
+    Tube                      5,410
+    Tube Construction           650
+    Pylon Construction        2,550
+    Tunnel Construction         600
+    Propulsion                  140
+    Solar Panels & Batteries    210
+    Station & Vacuum Pumps      260
+    Permits & Land            1,000
 
-**Capsule**
+    Cost Margin                 536
 
-**54** (40 capsules)
-
-**Capsule Structure & Doors**
-
-**9.8**
-
-**Interior & Seats**
-
-**10.2**
-
-**Compressor & Plumbing**
-
-**11**
-
-**Batteries & Electronics**
-
-**6**
-
-**Propulsion**
-
-**5**
-
-**Suspension & Air Bearings**
-
-**8**
-
-**Components Assembly**
-
-**4**
-
-**Tube**
-
-**5,410**
-
-**Tube Construction**
-
-**650**
-
-**Pylon Construction**
-
-**2,550**
-
-**Tunnel Construction**
-
-**600**
-
-**Propulsion**
-
-**140**
-
-**Solar Panels & Batteries**
-
-**210**
-
-**Station & Vacuum Pumps**
-
-**260**
-
-**Permits & Land**
-
-**1,000**
-
-**Cost Margin**
-
-**536**
-
-**Total**
-
-**6,000**
+    Total                     6,000
 
 **Table 9. Total cost of the Hyperloop passenger plus vehicle transportation system.**
 
-**Cost**
+    Component                 Cost (million USD)
+    Cargo Capsule                  30.5 (20 capsules)
+    Capsule Structure & Doors       5.5
+    Interior & Seats                3.7
+    Compressor & Plumbing           6
+    Batteries, Motor & Electronics  4
+    Propulsion                      3
+    Suspension & Air Bearings       5.3
+    Components Assembly             3
 
-**Component**
- (million USD)
+    Passenger Only Capsule         40.5 (30 capsules)
+    Capsule Structure & Doors       7.4
+    Interior & Seats                7.6
+    Compressor & Plumbing           8.2
+    Batteries, Motor & Electronics  4.5
+    Propulsion                      3.8
+    Suspension & Air Bearings       6
+    Components Assembly             3
 
-**Cargo Capsule**
+    Tube                        7,000
+    Tube Construction           1,200
+    Pylon Construction          3,150
+    Tunnel Construction           700
+    Propulsion                    200
+    Solar Panels & Batteries      490
+    Station & Vacuum Pumps        260
+    Permits & Land              1,000
 
-**30.5** (20 capsules)
+    Cost Margin                   429
 
-**Capsule Structure & Doors**
-
-**5.5**
-
-**Interior & Seats**
-
-**3.7**
-
-**Compressor & Plumbing**
-
-**6**
-
-**Batteries, Motor & Electronics**
-
-**4**
-
-**Propulsion**
-
-**3**
-
-**Suspension & Air Bearings**
-
-**5.3**
-
-**Components Assembly**
-
-**3**
-
-**Passenger Only Capsule**
-
-**40.5** (30 capsules)
-
-**Capsule Structure & Doors**
-
-**7.4**
-
-**Interior & Seats**
-
-**7.6**
-
-**Compressor & Plumbing**
-
-**8.2**
-
-**Batteries, Motor & Electronics**
-
-**4.5**
-
-**Propulsion**
-
-**3.8**
-
-**Suspension & Air Bearings**
-
-**6**
-
-**Components Assembly**
-
-**3**
-
-**Tube**
-
-**7,000**
-
-**Tube Construction**
-
-**1,200**
-
-**Pylon Construction**
-
-**3,150**
-
-**Tunnel Construction**
-
-**700**
-
-**Propulsion**
-
-**200**
-
-**Solar Panels & Batteries**
-
-**490**
-
-**Station & Vacuum Pumps**
-
-**260**
-
-**Permits & Land**
-
-**1,000**
-
-**Cost Margin**
-
-**429**
-
-**Total**
-
-**7,500**
+    Total                       7,500
 
 
-**6. Conclusions
-**A high speed transportation system known as Hyperloop has been developed in
+[conclusions]**6. Conclusions**
+
+A high speed transportation system known as Hyperloop has been developed in
 this  document.  The  work  has  detailed  two  version  of  the  Hyperloop:  a
 passenger  only  version  and  a  passenger  plus  vehicle  version.  Hyperloop  could
 transport people, vehicles, and freight between Los Angeles and San Francisco
@@ -2120,7 +1833,7 @@ transportation that could revolutionize travel. The authors welcome feedback
 and will incorporate it into future revisions of the Hyperloop project, following
 other open source models such as Linux.
 
-**7. Future Work**
+[future]**7. Future Work**
 
 Hyperloop  is  considered  an  open  source  transportation  concept.  The  authors
 encourage all members of
