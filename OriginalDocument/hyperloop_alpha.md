@@ -224,9 +224,7 @@ by LightSail.
 
 **Technical Section**
 
-****
-
-[abstract] **1. Abstract**
+### 1. Abstract
 
 Existing conventional modes of transportation of people consists of four unique
 types:  rail,  road,  water,  and  air.  These  modes  of  transport  tend  to  be  either
@@ -260,11 +258,11 @@ one-way ticket on the passenger Hyperloop.
 Useful  feedback  is  welcomed  on  aspects  of  the  Hyperloop  design.  E-mail
 feedback to[ hyperloop@spacex.com ](mailto:hyperloop@spacex.com)o[r hyperloop@teslamotors.com.](mailto:hyperloop@teslamotors.com)
 
-[toc] **2. Table of Contents**
+### 2. Table of Contents
 
-1. [Abstract][abstract]
-2. [Table of Contents][toc]
-3. [Background][background]
+1. [Abstract](#1-abstract)
+2. [Table of Contents](#2-table-of-contents)
+3. [Background](#3-background)
 4. [Hyperloop Transportation System][transport]
 4.1. [Capsule][capsule]
 4.1.1. [Geometry][capsule_geom]
@@ -307,7 +305,7 @@ feedback to[ hyperloop@spacex.com ](mailto:hyperloop@spacex.com)o[r hyperloop@te
 7. [Future Work][future]
 
 
-[background]**3. Background**
+### 3. Background
 
 The  corridor  between  San  Francisco,  California  and  Los  Angeles,  California  is
 one  of  the  most  often  traveled  corridors  in  the  American  West.  The  current
