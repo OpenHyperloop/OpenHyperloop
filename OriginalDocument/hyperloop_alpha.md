@@ -268,9 +268,9 @@ feedback to[ hyperloop@spacex.com ](mailto:hyperloop@spacex.com)o[r hyperloop@te
 * 4.1.1. [Geometry](#411-geometry)
 * 4.1.2. [Interior](#412-interior)
 * 4.1.3. [Compressor](#413-compressor)
-* 4.1.4. [Suspension](#414-supsension)
+* 4.1.4. [Suspension](#414-suspension)
 * 4.1.5. [Onboard Power](#415-onboard-power)
-* 4.1.6. [Propulsion](#415-propulsion)
+* 4.1.6. [Propulsion](#416-propulsion)
 * 4.1.7. [Cost](#417-cost)
 * 4.2. [Tube](#42-tube)
 * 4.2.1. [Geometry](#421-geometry)
@@ -286,8 +286,8 @@ feedback to[ hyperloop@spacex.com ](mailto:hyperloop@spacex.com)o[r hyperloop@te
 * 4.3.5. [Propulsion for Passenger Plus Vehicle System](#435-propulsion-for-passenger-plus-vehicle-system)
 * 4.4. [Route](#44-route)
 * 4.4.1. [Route Optimization](#441-route-optimization)
-* 4.4.1.1. [Los Angeles/Grapevine - South](#4411-los-angelesgrapevine-south)
-* 4.4.1.2. [Los Angeles/Grapevine – North](#4412-los-angelesgrapevine-north)
+* 4.4.1.1. [Los Angeles/Grapevine - South](#4411-los-angelesgrapevine--south)
+* 4.4.1.2. [Los Angeles/Grapevine – North](#4412-los-angelesgrapevine--north)
 * 4.4.1.3. [I-5](#4413-i-5)
 * 4.4.1.4. [I-580/San Francisco Bay](#4414-i-580san-francisco-bay)
 * 4.4.3. [Station Locations](#443-station-locations)
@@ -1660,7 +1660,7 @@ small onboard electric motors to power deployed wheels.
 All  capsules  would  be  equipped  with  a  reserve  air  supply  great  enough  to
 ensure the safety of all passengers for a worst case scenario event.
 
-### 4.5.5. Structural Integrity of the Tube in Jeopard
+### 4.5.5. Structural Integrity of the Tube in Jeopardy
 
 A minor depressurization of the tube is unlikely to affect Hyperloop capsules or
 passengers  and  would  likely  be  overcome  by  increased  vacuum  pump  power.
